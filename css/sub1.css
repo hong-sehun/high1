@@ -14,7 +14,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'SB 어그로';
-    cursor: url(../img/cursor4.png) -2 -2, auto;
+    /* cursor: url(../img/cursor4.png) -2 -2, auto; */
 }
 
 *.active {
@@ -180,6 +180,8 @@ main .main2 .monitor {
     position: relative;
     top: -10%;
     z-index: 10;
+    overflow: hidden;
+    visibility: hidden;
 }
 
 main .main2 .more {
@@ -460,6 +462,7 @@ main .main5 .text {
     font-size: .9rem;
     padding-top: 1rem;
     padding-left: 22rem;
+  
     color: #BCBCBC;
 }
 
@@ -473,7 +476,7 @@ main .main5 .csbg1 {
 
 /* 푸터 */
 footer {
-    padding-top: 10rem;
+    padding-top: 20rem;
 }
 
 /* footer 영역 */
